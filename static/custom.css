@@ -1,0 +1,280 @@
+/*tout le milieu*/
+#chat-container {
+    background-color : #FDF7F0
+}
+
+/*toute la grande barre à gauche*/
+#sidebar {
+    background-color : #D3C4AC
+}
+/* une partie de "rechercher un modèle */
+body > div:nth-child(3) > div {
+    background-color : rgba(200, 145, 22, 0.3)
+}
+/* une autre partie de  "rechercher un modèle */
+body > div:nth-child(3) > div > div.px-2 > div {
+    background-color : rgba(200,145,22,0.3)
+}
+
+/* barre de recherche avec le code couleur demandé par Fabien */
+#message-input-container{
+    background-color: #D3C4AC;
+}
+
+/* bouton "+" dans la barre de recherche à mettre en noir */
+#input-menu-button {
+    color: #000000 ;
+}
+
+/* bouton "intégrations" dans la barre de recherche à mettre en noir */
+#integration-menu-button {
+    color: #000000 ;
+}
+
+/* bouton "dicter" dans la barre de recherche à mettre en noir */
+#voice-input-button {
+    color: #000000 ;
+}
+/* texte "Comment puis-je vous aider aujourd'hui" dans la barre de recherche à mettre en noir */
+
+#chat-input p[data-placeholder]::before {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* mettre toute la partie "suggéré en bas de la barre de recherche en noir */
+
+
+.mx-auto.max-w-2xl.font-primary.mt-2 * {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* augmenter la taille de size-6 = 1.5 rem à une plus grande size pour que le logo soit plus grand */
+.sidebar-new-chat-icon {
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+/* metttre le texte de la barre latérale à gauche en noir */ 
+#sidebar-new-chat-button *,
+#sidebar-search-button *,
+#pinned-menu-items-list *,
+#sidebar-folder-button *,
+#sidebar-chat-group * {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* mettre une couleur un peu plus foncée pour aujourd'hui et 30 derniers jours dans cette barre latérale */
+#sidebar .text-gray-500 {
+    color: #3F382F !important;
+    opacity: 1 !important;
+}
+
+/* remplacer la couleur blanche de dégradé dand la barre de recherche par le code couleur de Fabien */
+#sidebar .flex.items-center.rounded-2xl.py-2.px-1\.5.w-full {
+    background-color: #FDF7F0;
+}
+
+
+/* supprimer le texte "Définir comme valeur par défault" quand on sélectionne un modèle */
+div.relative.text-left.mt-\[1px\].ml-1.text-\[0\.7rem\].text-gray-600.dark\:text-gray-400.font-primary {
+    display: none !important;
+}
+
+
+/* mettre le texte "Rechercher un modèle" en noir dans la sélection de modèle */
+#model-search-input::placeholder {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+
+/* mettre le bouton "local" en noir dans la sélection de modèle */
+button.min-w-fit.outline-none.px-1\.5.py-0\.5.capitalize[aria-pressed="false"] {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* mettre le fond avec la couleur: FDF7F0. Le deuxième div cible "tout", "local", le premier cible le reste*/
+div.z-40:has(#model-search-input),
+div.z-40:has(#model-search-input) .bg-white {
+    background-color: #FDF7F0 !important;
+}
+
+/* cacher la section "tout" dans la sélection de modèle */
+/* Masquer le bouton "Tout" dans le sélecteur de modèles */
+div.z-40:has(#model-search-input) button.capitalize[aria-pressed="true"] {
+    display: none !important;
+}
+
+
+/* cacher le modèle "arena-model" dans la sélection de modèle */
+button[role="option"][data-value="arena-model"] {
+    display: none !important;
+}
+
+
+/* Tout le texte dans la section "Recherche" en noir */
+div.py-3:has(#search-input) * {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* Tout le background de la section "Recherche" remplacé par le fond de couleur proposé par Fabien */
+div.py-3:has(#search-input) {
+    background-color: #FDF7F0 !important;
+}
+
+
+/* Remplacer la couleur de fond du menu profil utilisateur quand on clique sur la photo de profil */
+div.z-50:has(img[alt="profile"]) {
+    background-color: #FDF7F0 !important;
+}
+
+/* Tout le texte la section "Contrôles" en noir avec le fond de couleur proposé par Fabien */
+.flex-1.min-h-0.overflow-y-auto.px-3.pt-1 * {
+    color: #000000 !important;
+    opacity: 1 !important;
+    background-color: #FDF7F0
+}
+
+/* le texte pixelisée en plein milieu de "Notes" en noir dès à présent */
+div.text-sm.text-gray-400, div.mt-1.text-xs.text-gray-300 
+{
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+#notes-container, #notes-container .bg-white {
+    background-color: #FDF7F0 !important;
+}
+
+/* pareil le changement de couleur pour le conteneur de l'espace de travail */
+#workspace-container, #workspace-container .bg-white {
+    background-color: #FDF7F0 !important;
+}
+/*j'ai pas mis du noir mais un gris légèrement plus foncé pour les placeholders de l'espace de travail*/
+#workspace-container input::placeholder,
+#workspace-container textarea::placeholder {
+    color: #6B6257 !important;
+    opacity: 1 !important;
+}
+
+
+/* changer la couleur de fond du champ de texte "Instructions du skill" de gris à #FDF7F0 */
+textarea[aria-label="Instructions du skill"] { 
+    background-color: #FDF7F0 !important;
+}
+
+/*cacher le "Réalisé par la communauté Open WebUI" qui est affiché dans Espace de Travail/Outils */
+#workspace-container .text-xl.font-medium.mb-1.line-clamp-1 {
+    display: none !important;
+}
+
+/* changer la couleur de fond de la modale créer un dossier ainsi que la couleur du texte */
+div.m-auto.max-w-full.w-\[42rem\]:has(#folder-name), div.m-auto.max-w-full.w-\[42rem\]:has(#folder-name) * {
+    background-color: #FDF7F0 !important;
+    color: #000000 !important;
+}
+
+
+/* changer la couleur de fond de la "Mettre à jour votre statut" */
+div.m-auto.max-w-full.w-\[30rem\]:has(#status-message) {
+    background-color: #FDF7F0 !important;
+    color: #000000 !important;
+}
+
+/* Réglages background color avec la couleur proposée par Fabien */
+div[role="dialog"]:has(input[placeholder="Recherche"]) {
+    background-color: #FDF7F0 !important;
+    color: #000000 !important;
+}
+
+/* Réglages couleur du texte avec la couleur noire */
+div[role="dialog"]:has(input[placeholder="Recherche"]),
+div[role="dialog"]:has(input[placeholder="Recherche"]) * {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+
+
+/* changement du background dans les sous-sections Utilisateurs/Analytiques/Evaluations de la section Admin */
+div:has(table) {
+    background-color: #FDF7F0 !important;
+}
+
+
+/* changement du background dans la sous-section "Fonctions" de la section Admin */
+div:has(a[href="/admin/functions"]) {
+    background-color: #FDF7F0 !important;
+}
+
+/* changement du background dans la sous-section "Réglages" de la section Admin */
+div:has(a[href="/admin/settings"]) {
+    background-color: #FDF7F0 !important;
+}
+
+/* changement du background dans la sous-section "Utilisateurs" de la section Admin */
+div.m-auto.max-w-full.w-\[56rem\]:has(input[placeholder="Rechercher des conversations"]), div.m-auto.max-w-full.w-\[56rem\]:has(input[placeholder="Rechercher des conversations"]) * {
+    background-color: #FDF7F0 !important;
+    color: #000000 !important;
+}
+
+
+/* Calendrier : background en noir */
+.flex.flex-col.h-full.w-full.min-h-0.min-w-0 {
+    background-color: #FDF7F0 !important;
+    color: #000000 !important;
+}
+
+/* Calendrier : texte en noir */
+.flex.flex-col.h-full.w-full.min-h-0.min-w-0 * {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+
+/* mettre le background de la section "Automations" dans les réglages en couleur proposée par Fabien */
+.flex-1.max-h-full.overflow-y-auto:has(input[placeholder="Search Automations"]), 
+.flex-1.max-h-full.overflow-y-auto:has(input[placeholder="Search Automations"]) .bg-white,
+.flex-1.max-h-full.overflow-y-auto:has(input[placeholder="Search Automations"]) .bg-gray-50 {
+    background-color: #FDF7F0 !important;
+}
+
+
+/* les sous-sections de playground ont désormais le background demandé par Fabien */
+div:has(a[href="/playground"]):has(a[href="/playground/completions"]):has(a[href="/playground/images"]) {
+    background-color: #FDF7F0 !important;
+}
+
+/* Page de connexion couleur de fond avec la couleur proposée par Fabien */
+.w-full.px-10.min-h-screen {
+    background-color: #FDF7F0 !important;
+}
+
+/* raccourcis clavier : background avec la couleur proposée par Fabien et texte en noir */
+div.text-gray-700.px-5.py-4:has(.text-lg.font-medium.self-center) {
+    background-color: #FDF7F0 !important;
+    color: #000000 !important;
+}
+
+
+
+/* Ajustement des shortcuts clavier pour qu'ils ne débordent pas sur le texte */
+div.text-gray-700.px-5.py-4 .whitespace-nowrap {
+    white-space: normal;
+}
+
+/* Supprimer Documentation et Livraisons dans le menu */
+a[href="https://docs.openwebui.com"],
+a[href="https://github.com/open-webui/open-webui/releases"] {
+    display: none !important;
+}
+
+/* À propos : garder uniquement version + nouveautés */
+#tab-about > div > :not(:first-child) {
+    display: none !important;
+}
