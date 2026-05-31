@@ -18,12 +18,6 @@ Le dossier `static/` contient les fichiers personnalisés :
 
 2. Trouver le dossier `static` de Open WebUI.
 
-Chemin typique :
-
-```text
-C:\Users\VOTRE_NOM\AppData\Local\Programs\Python\Python311\Lib\site-packages\open_webui\static
-
-
 3. Copier tous les fichiers du dossier static/ de ce repo dans le dossier static de Open WebUI.
 
 4. Accepter le remplacement des fichiers existants.
@@ -41,8 +35,8 @@ Ctrl + Shift + R
 Depuis Chrome ou Edge :
 
 Ouvrir Open WebUI.
-Menu ...
-Installer cette page comme application
+Il y a normalement une sorte de mini ordi à droite dans votre barre d'url
+Cliquez dessus et installer cette page comme application via celle-ci
 Nommer l’application ASYT.
 
 
