@@ -6,13 +6,34 @@ Personnalisation ASYT pour Open WebUI.
 
 Le dossier `static/` contient les fichiers personnalisés :
 
-- `custom.css`
-- logos ASYT
-- favicons
-- splash screens
-- manifest icons
+custom.css
 
-## Installation Windows
+apple-touch-icon.png
+
+favicon-96x96.png
+
+favicon-dark.png
+
+favicon.ico
+
+favicon.png
+
+favicon.svg
+
+logo.png
+
+site.webmanifest
+
+splash-dark.png
+
+splash.png
+
+web-app-manifest-192x192.png
+
+web-app-manifest-512x512.png
+
+
+## Installation 
 
 
 1. Trouver le dossier `static` de Open WebUI.
@@ -23,7 +44,6 @@ Le dossier `static/` contient les fichiers personnalisés :
 
 4. Refresh OpenWebui avec Ctrl + Shift + R
 
-
 5. Installer comme application bureau
 
 Il y a normalement une sorte de mini ordi à droite dans votre barre d'url
@@ -32,5 +52,5 @@ Nommer l’application ASYT si demandé.
 
 
 
-Note
+## Note :
 Cette personnalisation ne modifie pas les modèles Ollama. Elle change uniquement l’apparence et les fichiers statiques de Open WebUI.
