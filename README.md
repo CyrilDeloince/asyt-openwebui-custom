@@ -14,30 +14,21 @@ Le dossier `static/` contient les fichiers personnalisés :
 
 ## Installation Windows
 
-1. Fermer Open WebUI.
 
-2. Trouver le dossier `static` de Open WebUI.
+1. Trouver le dossier `static` de Open WebUI.
 
-3. Copier tous les fichiers du dossier static/ de ce repo dans le dossier static de Open WebUI.
+2. Copier tous les fichiers du dossier static/ de ce repo dans le dossier static de Open WebUI.
 
-4. Accepter le remplacement des fichiers existants.
+3. Accepter le remplacement des fichiers existants.
 
-5. Relancer Open WebUI.
-
-6. Dans le navigateur, faire :
-
-Ctrl + Shift + R
+4. Refresh OpenWebui avec Ctrl + Shift + R
 
 
-7. Installation comme application bureau
+5. Installer comme application bureau
 
-
-Depuis Chrome ou Edge :
-
-Ouvrir Open WebUI.
 Il y a normalement une sorte de mini ordi à droite dans votre barre d'url
 Cliquez dessus et installer cette page comme application via celle-ci
-Nommer l’application ASYT.
+Nommer l’application ASYT si demandé.
 
 
 
